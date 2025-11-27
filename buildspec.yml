@@ -12,7 +12,7 @@ phases:
 
   build:
     commands:
-      - echo Building Docker image (no cache)...
+      - echo Starting Docker build...
       - docker build --no-cache -t brain-tasks-app .
       - docker tag brain-tasks-app:latest $ECR_REPO:latest
 
