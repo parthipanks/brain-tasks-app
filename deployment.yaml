@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: brain-react-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: brain-react
+  template:
+    metadata:
+      labels:
+        app: brain-react
+    spec:
+      containers:
+        - name: brain-react-container
+          image: 586645868766.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app:latest
+          ports:
+            - containerPort: 3000
