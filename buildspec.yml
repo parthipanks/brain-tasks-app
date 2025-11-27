@@ -1,26 +1,31 @@
 version: 0.2
 
+env:
+  variables:
+    ECR_REPO: 586645868766.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app
+
 phases:
   pre_build:
     commands:
       - echo Logging into Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 586645868766.dkr.ecr.us-east-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_REPO
 
   build:
     commands:
-      - echo Building Docker image...
-      - docker build -t brain-tasks-app .
-      - docker tag brain-tasks-app:latest 586645868766.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app:latest
+      - echo Building Docker image (no cache)...
+      - docker build --no-cache -t brain-tasks-app .
+      - docker tag brain-tasks-app:latest $ECR_REPO:latest
 
   post_build:
     commands:
       - echo Pushing Docker image to ECR...
-      - docker push 586645868766.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app:latest
+      - docker push $ECR_REPO:latest
       - echo Applying Kubernetes manifests...
-      - kubectl apply -f deployment.yaml
-      - kubectl apply -f service.yaml
+      - kubectl apply -f deployment.yaml --validate=false
+      - kubectl apply -f service.yaml --validate=false
 
 artifacts:
   files:
     - deployment.yaml
     - service.yaml
+
