@@ -1,0 +1,3 @@
+NAME                  TYPE           CLUSTER-IP     EXTERNAL-IP                                                              PORT(S)        AGE   SELECTOR
+brain-react-service   LoadBalancer   10.100.27.69   a5d37c1d634af4f24a667edcb98f6fdd-930903694.us-east-1.elb.amazonaws.com   80:31575/TCP   26h   app=brain-react
+kubernetes            ClusterIP      10.100.0.1     <none>                                                                   443/TCP        26h   <none>

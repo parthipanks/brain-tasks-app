@@ -1,0 +1,89 @@
+{
+    "imageDetails": [
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:0322ea09fcb463f16794cb6a7911a35bfa9a721e0c57091be755420356649937",
+            "imageSizeInBytes": 415219596,
+            "imagePushedAt": "2025-11-27T18:26:25.200000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:7866f9146b1808dafda22a87a58319daa3cf59045249957554fc54dbe59ddf0c",
+            "imageSizeInBytes": 191335019,
+            "imagePushedAt": "2025-11-27T06:45:08.452000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "lastRecordedPullTime": "2025-11-27T07:10:31.092000+00:00",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:63d8903d868d2e4d2ec9d5068adeecd183970ef175dd3bc712b96dbb49b15baa",
+            "imageSizeInBytes": 415220327,
+            "imagePushedAt": "2025-11-28T06:54:00.948000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:d2b7b6cbcc29554009d7c492d8ee2191ccc1d9616b29fa0686a4df664ee212c9",
+            "imageSizeInBytes": 415217730,
+            "imagePushedAt": "2025-11-28T08:34:16.762000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:1566995e459e9c4afb2ee55db682299dfec88939194f266c0ec9a63677c07c72",
+            "imageSizeInBytes": 415219119,
+            "imagePushedAt": "2025-11-27T17:35:37.117000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:cc05b07f0240101b335e5d658ab65b42795e04de65523f37dc12c0aced34012b",
+            "imageSizeInBytes": 415219123,
+            "imagePushedAt": "2025-11-27T18:26:31.574000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "lastRecordedPullTime": "2025-11-27T18:43:39.830000+00:00",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:60d2c5b38e3f07d4ad66ffb544cd023181ca339bf69cffd65f412c75b0a919d1",
+            "imageSizeInBytes": 415221056,
+            "imagePushedAt": "2025-11-28T08:25:23.084000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        },
+        {
+            "registryId": "586645868766",
+            "repositoryName": "brain-tasks-app",
+            "imageDigest": "sha256:66f3ef3788e8098f0758bb3babf2bb6ef206a0ee89c0eeadbcc550457486171c",
+            "imageTags": [
+                "latest"
+            ],
+            "imageSizeInBytes": 415222728,
+            "imagePushedAt": "2025-11-28T08:34:46.750000+00:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "imageStatus": "ACTIVE"
+        }
+    ]
+}
