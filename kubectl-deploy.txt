@@ -1,2 +1,0 @@
-NAME                     READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS              IMAGES                                                                SELECTOR
-brain-react-deployment   2/2     2            2           26h   brain-react-container   586645868766.dkr.ecr.us-east-1.amazonaws.com/brain-tasks-app:latest   app=brain-react

@@ -1,3 +1,0 @@
-NAME                                    READY   STATUS    RESTARTS   AGE   IP               NODE                             NOMINATED NODE   READINESS GATES
-brain-react-deployment-d964598d-zlbfx   1/1     Running   0          14h   192.168.35.76    ip-192-168-52-186.ec2.internal   <none>           <none>
-brain-react-deployment-d964598d-zz9tg   1/1     Running   0          14h   192.168.57.162   ip-192-168-52-186.ec2.internal   <none>           <none>
