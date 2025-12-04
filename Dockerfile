@@ -1,7 +1,4 @@
-FROM public.ecr.aws/docker/library/node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["npm", "start"]
+FROM nginx:latest
+COPY dist/ /usr/share/nginx/html
+EXPOSE 80
+
